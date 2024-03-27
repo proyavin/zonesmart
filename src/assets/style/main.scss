@@ -1,0 +1,36 @@
+@import "fonts";
+@import "typography";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Graphik LCG', sans-serif;
+  background: #F2F2F2;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+svg,
+img {
+  vertical-align: middle;
+}
+
+.card {
+  padding: 40px;
+  background: #FFFFFF;
+  box-shadow: 0 6px 8px 0 #00000029;
+  border-radius: 15px;
+}
